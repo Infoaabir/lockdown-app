@@ -18,10 +18,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.137" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -60,15 +60,13 @@
 
     <Switch
         android:id="@+id/switch2"
-        android:layout_width="63dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="319dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="76dp"
+        android:layout_height="49dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="@+id/name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/name" />
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Switch
         android:id="@+id/switch3"
