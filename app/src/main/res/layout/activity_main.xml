@@ -12,54 +12,30 @@
         android:id="@+id/name"
         android:layout_width="273dp"
         android:layout_height="56dp"
+        android:layout_marginTop="48dp"
         android:fontFamily="sans-serif-black"
         android:text="Full lock down"
         android:textSize="40sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="90dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="84dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name"
-        app:srcCompat="@android:drawable/ic_btn_speak_now" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="90dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@android:drawable/ic_menu_camera" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/adBlocker"
         android:layout_width="195dp"
         android:layout_height="52dp"
-        android:layout_marginTop="40dp"
         android:text="Ad Blocker"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        tools:layout_editor_absoluteY="455dp" />
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/lockDown"
         android:layout_width="76dp"
         android:layout_height="49dp"
         android:layout_marginBottom="4dp"
@@ -69,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Switch
-        android:id="@+id/switch3"
+        android:id="@+id/network"
         android:layout_width="195dp"
         android:layout_height="52dp"
         android:layout_marginTop="40dp"
@@ -82,5 +58,32 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="0.275" />
+
+    <Switch
+        android:id="@+id/camera"
+        android:layout_width="195dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="72dp"
+        android:text="Camera"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/switch1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/Mic"
+        android:layout_width="195dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="72dp"
+        android:text="Mic"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/switch4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintVertical_bias="0.28" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
